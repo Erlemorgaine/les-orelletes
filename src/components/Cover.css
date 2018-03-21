@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Amita');
+
+.cover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 400px;
+  background-image: url('../images/lemon_cookies.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.cover .title-box {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 1rem;
+  padding: 10px 20px 30px 20px;
+  color: white;
+}
+
+.cover-title {
+  font-family: 'Amita', cursive;
+  font-size: 3.5rem;
+  text-shadow: -2px 0 rgb(227, 120, 8), 0 2px rgb(227, 120, 8), 2px 0 rgb(227, 120, 8), 0 -2px rgb(227, 120, 8);
+}
+
+.cover-subtitle {
+  position: absolute;
+  top: 100px;
+  left: 20%;
+  color: rgb(205, 113, 5);
+  font-size: 1.25rem;
+}
+
+.cover-subtitle::before {
+  content: url('../images/plant.svg');
+  margin-right: 0.25em;
+}
+
+.cover-subtitle::after {
+  content: url('../images/plant.svg');
+  display: inline-block;
+  transform: scale(-1, 1);
+  margin-left: 0.25em;
+}
