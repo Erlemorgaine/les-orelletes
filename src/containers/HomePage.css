@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Lora');
+
+body {
+  background-color: rgb(250, 245, 237);
+}
+
+.app {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.title {
+  font-family: 'Lora', cursive;
+}
+
+.page {
+  margin: 5%;
+}
